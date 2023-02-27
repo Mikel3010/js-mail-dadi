@@ -1,4 +1,8 @@
 'use strict'
+const email = ['pippo@gmail.com','topolino@gmail.com','paperino@gmail.com','pluto@gmail.com']
+
+const emailUser = prompt('inserisci la tua mail')
+console.log(emailUser)
 
 for (let i = 0; i < email.length; i++){
     if ( email[0] === emailUser){
